@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6041541795472428433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8931001022341453686}
+  - component: {fileID: 7789253467572766485}
+  m_Layer: 0
+  m_Name: SceneLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8931001022341453686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6041541795472428433}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7789253467572766485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6041541795472428433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de10cf5752ed3ed4488d2cc9293f7115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  durationEntry: 1
+  animationTypeEntry: 2
+  slideTypeEntry: 1
+  slideDirectionEntry: 0
+  circleSlideEntry: 3
+  circleSizeEntry: 200
+  circleExitEase: 18
+  circleExitDuration: 0.5
+  backPanelColorEntry: {r: 0.5019608, g: 1, b: 0.43529412, a: 1}
+  frontPanelColorEntry: {r: 0.6901961, g: 0.29411766, b: 0.29411766, a: 1}
+  easeEntry: 14
+  durationExit: 1
+  animationTypeExit: 2
+  slideTypeExit: 1
+  slideDirectionExit: 2
+  circleSlideExit: 3
+  circleSizeExit: 200
+  circleEntryEase: 17
+  circleEntryDuration: 0.5
+  backPanelColorExit: {r: 0.5019608, g: 1, b: 0.43529412, a: 1}
+  frontPanelColorExit: {r: 0.6985294, g: 0.29790226, b: 0.29790226, a: 1}
+  easeExit: 15
+  holdDuration: 0
